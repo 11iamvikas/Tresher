@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommunityActivity"
+    android:background="@color/white">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/navigation_bg"
+        android:elevation="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/home"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btn_report"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/user_image_background"
+                android:text="Report Waste"
+                android:layout_marginTop="-3dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_community"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fam"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_collect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/user_image_background"
+                android:text="Collect Waste"
+                android:layout_marginTop="-6dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:background="@drawable/user_image_background"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/tv_announcement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are still working on this. Thank you for your patience."
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

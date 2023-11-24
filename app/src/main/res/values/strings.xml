@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Tresher</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="report_and_collect_waste">Report and Collect Waste</string>
+    <string name="change_society">Make a Social Change</string>
+    <string name="default_web_client_id" translatable="false">YOUR_WEB_CLIENT_ID</string>
+    <string name="join_us">Take a step towards change</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">Email</string>
+    <string name="et_hint_password">Password</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="i_agree_to_terms_and_conditions">I agree to terms and conditions.</string>
+    <string name="btn_lbl_register">Register</string>
+    <string name="already_have_an_account">Already have an account.</string>
+    <string name="login">Login</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="et_hint_confirm_password">Confirm Password</string>
+    <string name="err_msg_enter_first_name">Enter First Name</string>
+    <string name="err_msg_enter_last_name">Enter Last Name</string>
+    <string name="err_msg_enter_email">Enter Email</string>
+    <string name="err_msg_enter_password">Enter Password</string>
+    <string name="err_msg_enter_confirm_password">Enter confirm_password</string>
+    <string name="err_msg_agree_terms_and_conditions">Please agree terms and conditions</string>
+    <string name="registery_successfull">Registration Successful</string>
+    <string name="register_success">Thanks for registration</string>
+    <string name="btn_lbl_submit">Submit</string>
+    <string name="email_sent_success">Email sent successfully to reset your password.</string>
+    <string name="title_complete_profile">Complete Your Profile</string>
+    <string name="et_hint_mobile_number">Mobile Number</string>
+    <string name="rb_lbl_male">Male</string>
+    <string name="rb_lbl_female">Female</string>
+    <string name="content_description">image</string>
+    <string name="read_storage_permission_denied">Oops, you just denied the permission for storage. You can also allow it from settings.</string>
+    <string name="image_selection_failed">Image Selection Failed !</string>
+    <string name="err_msg_enter_mobile_number">Enter mobile number</string>
+    <string name="msg_profile_update_success">Your Profile is updated successfully.</string>
+    <string name="report_title">Report Waste around you.</string>
+    <string name="et_hint_type_of_waste">Waste Type, Degradable/Non-Degradable</string>
+    <string name="et_hint_address">Address</string>
+    <string name="lbl_btn_select">Select an image</string>
+    <string name="lbl_btn_submit_report">Submit Report</string>
+
+</resources>
